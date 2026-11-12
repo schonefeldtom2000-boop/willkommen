@@ -1,0 +1,30 @@
+WILLKOMMEN-APP
+==============
+
+Was ist das?
+Eine kleine Android-App, die im Vollbild die "Willkommen zurueck!"-Animation
+mit deinem Minecraft-Skin zeigt und sich danach selbst schliesst.
+
+1) Auf GitHub hochladen (am PC)
+   - Diese ZIP entpacken.
+   - Dein Repository auf github.com oeffnen: Add file -> Upload files.
+   - ALLES aus dem entpackten Ordner (nicht den Ordner selbst) ins Fenster ziehen.
+   - Unten auf "Commit changes" klicken.
+   - Pruefen, ob im Repository der Ordner ".github" mit "workflows/build.yml" da ist.
+     Falls nicht: Add file -> Create new file, als Name
+     .github/workflows/build.yml eintippen und den Inhalt der Datei einfuegen.
+
+2) APK bauen lassen
+   - Im Repository oben auf den Reiter "Actions" klicken.
+   - Der Lauf "APK bauen" startet von selbst (dauert ca. 3-5 Minuten).
+   - Gruener Haken = fertig.
+
+3) APK aufs Handy
+   - Im Repository rechts auf "Releases" -> "Willkommen-App" tippen.
+   - Unten die Datei "Willkommen.apk" herunterladen und oeffnen.
+   - Android fragt nach "Unbekannte Apps installieren" -> fuer Chrome erlauben.
+
+4) MacroDroid
+   - Aktion "Anwendung starten" -> App "Willkommen" auswaehlen.
+   - Danach "Warten vor naechster Aktion" 6 Sekunden.
+   - Danach "Anwendung starten" -> Stream Deck.
